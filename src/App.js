@@ -411,7 +411,8 @@ function App() {
                     </div>
                   );
                 })}
-                <p>Don't share this until the answer is revealed</p>
+                <br />
+                <p>Keep your answer secret until after oDAO reaches consensus</p>
               </div>
             </div>
           </div>
@@ -559,7 +560,7 @@ function App() {
                   <th>ODAO Address</th>
                   <th style={{ minWidth: "200px" }}>ODAO Name</th>
                   <th>Hash</th>
-                  <th>Time (local)</th>
+                  <th style={{ minWidth: "150px" }}>Time (local)</th>
                   <th>Merkle Root</th>
                   <th>Consensus</th>
                 </tr>
