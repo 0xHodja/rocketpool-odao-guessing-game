@@ -41,7 +41,7 @@ function App() {
   const [odaoMembers, setodaoMembers] = useState([]);
   const [odaoRankGuess, setodaoRankGuess] = useState([]);
   const [warningMessage, setwarningMessage] = useState("");
-  const [hashSalt, sethashSalt] = useState(parseInt(Math.random() * 10000));
+  const [hashSalt, sethashSalt] = useState(2689);
   const [hash, sethash] = useState("");
   const [submissions, setSubmissions] = useState([]);
   const [loadingSubmissions, setloadingSubmissions] = useState(true);
@@ -110,7 +110,11 @@ function App() {
         setpage(3);
       }
     }
-    sethashSalt(salt);
+    if (salt) {
+      sethashSalt(salt);
+    } else {
+      sethashSalt(parseInt(Math.random() * 10000));
+    }
     if (verify) {
       setpage(4);
     }
