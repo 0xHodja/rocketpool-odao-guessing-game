@@ -52,6 +52,11 @@ function App() {
   const [params] = useSearchParams();
   const navigate = useNavigate();
 
+  // page counter
+  useEffect(() => {
+    fetch(`https://api.countapi.xyz/hit/0xhodja/rocketpool_odao_treegen_game`);
+  }, []);
+
   // get odao members on load
   useEffect(() => {
     let data = odaoJson;
@@ -232,11 +237,12 @@ function App() {
               </ul>
               <li>Copy your SHA256 hash into discord to stake your claim on the truth</li>
               <ul>
-                <li>Prior to submissions only hashes will be submitted on discord, and then revealed after the oDAO has reached consensus on the merkle root</li>
+                <li>Before oDAO reaches consensus, only submit your hash on discord. </li>
+                <li>You can reveal your answer after the oDAO has reached consensus on the merkle root.</li>
               </ul>
               <li>Save the url containing the hash and the salt of your answer</li>
               <li>After submissions are complete, reply to your original hash message by sharing your url in discord to reveal your answer and confirm your hash</li>
-              <li>Navigating using the link will give you a score for your answer</li>
+              <li>Clicking on the link you saved will give you a score for your answer</li>
             </ol>
           </div>
         </div>
