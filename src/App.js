@@ -263,6 +263,14 @@ function App() {
             </a>
           </div>
         </div>
+        <div className="row pb-3">
+          <div className="col text-center">
+            <h4 className="mb-3">Source Code</h4>
+            <a className="text-decoration-none" href="https://github.com/0xHodja/rocketpool-odao-guessing-game" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-github"></i> 0xHodja/rocketpool-odao-guessing-game
+            </a>
+          </div>
+        </div>
       </>
     );
   };
