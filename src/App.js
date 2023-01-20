@@ -3,10 +3,11 @@ import { Button } from "react-bootstrap";
 import CryptoJS from "crypto-js";
 import { useSearchParams, useNavigate } from "react-router-dom";
 import { ethers } from "ethers";
+import format from "date-fns/format";
+import { BarLoader } from "react-spinners";
 
 import RocketRewardsPoolABI from "./RocketRewardsPoolABI.json";
 import odaoJson from "./odao.json";
-import { BarLoader } from "react-spinners";
 
 const backgroundStyle = {
   backgroundImage: `url("/background.png")`,
@@ -367,14 +368,14 @@ function App() {
             <h4>🔑 Hash Output</h4>
             <div className="d-flex flex-column justify-content-center align-items-center border border-2 rounded-1 p-3 bg-light my-3">
               <h5>Step 1</h5>
-              Copy the hash below and paste into Discord to stake your answer
+              Copy the hash below and paste into Discord to stake your claim to victory
               <div className="my-5">
                 <span className="fw-bold text-break">{hash}</span>
               </div>
             </div>
             <div className="d-flex flex-column justify-content-center align-items-center border border-2 rounded-1 p-3 bg-light">
               <h5>Step 2</h5>
-              Save this link below to prove your revealed answer after consensus is reached. <br />
+              Save this link below to prove your answer after oDAO reaches consensus. <br />
               It contains the salt you need to prove ur answer, without it you cannot prove your hash is right.
               <div className="my-5">
                 <a className="text-break" href={window.location.href + "&verify=true"}>
@@ -383,6 +384,7 @@ function App() {
                 <p className="">
                   <i>Salt: {hashSalt}</i>
                 </p>
+                <div className="mt-5">Reply to your original post in discord where you posted your hash, with this url to reveal your answer and prove the original hash is yours.</div>
               </div>
             </div>
           </div>
@@ -558,7 +560,7 @@ function App() {
                   <th>ODAO Address</th>
                   <th style={{ minWidth: "200px" }}>ODAO Name</th>
                   <th>Hash</th>
-                  <th>Timestamp</th>
+                  <th>Time (local)</th>
                   <th>Merkle Root</th>
                   <th>Consensus</th>
                 </tr>
@@ -584,7 +586,7 @@ function App() {
                           {shortenAddress(x.hash)}
                         </a>
                       </td>
-                      <td className={rowClass}>{x.timestamp}</td>
+                      <td className={rowClass}>{format(new Date(parseInt(x.timestamp) * 1000), "yyyy-MM-dd HH:mm")}</td>
                       <td className={rowClass}>{shortenAddress(x.merkleRoot)}</td>
                       <td className={rowClass}>{x.valid ? "Valid" : "Pending"}</td>
                     </tr>
