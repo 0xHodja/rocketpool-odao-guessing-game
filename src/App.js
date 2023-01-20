@@ -215,6 +215,32 @@ function App() {
       <>
         <div className="row pb-3">
           <div className="col text-center">
+            <Button variant="success" size="lg" onClick={() => setpage(2)}>
+              Begin Game
+            </Button>
+          </div>
+        </div>
+        <div className="row pb-3">
+          <div className="col text-center">
+            <h4 className="mb-3">How this works</h4>
+            <ol className="text-start">
+              <li>Select 8 oDAO members in order of who you think will submit their merkle trees onchain first</li>
+              <li>A SHA256 hash of your answer combined with a random salt, will be generated</li>
+              <ul>
+                <li>The salt is just to ensure someone else with the same answer as you does not have the same SHA256 hash</li>
+              </ul>
+              <li>Copy your SHA256 hash into discord to stake your claim on the truth</li>
+              <ul>
+                <li>Prior to submissions only hashes will be submitted on discord, and then revealed after the oDAO has reached consensus on the merkle root</li>
+              </ul>
+              <li>Save the url containing the hash and the salt of your answer</li>
+              <li>After submissions are complete, reply to your original hash message by sharing your url in discord to reveal your answer and confirm your hash</li>
+              <li>Navigating using the link will give you a score for your answer</li>
+            </ol>
+          </div>
+        </div>
+        <div className="row pb-3">
+          <div className="col text-center">
             <h4 className="mb-3">References</h4>
             <a href="https://etherscan.io/txs?a=0x594fb75d3dc2dfa0150ad03f99f97817747dd4e1" target="_blank" rel="noreferrer">
               ODAO Reward Submissions Contract
@@ -384,6 +410,7 @@ function App() {
                     </div>
                   );
                 })}
+                <p>Don't share this until the answer is revealed</p>
               </div>
             </div>
           </div>
