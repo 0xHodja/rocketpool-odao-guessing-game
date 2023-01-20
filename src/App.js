@@ -375,8 +375,7 @@ function App() {
             </div>
             <div className="d-flex flex-column justify-content-center align-items-center border border-2 rounded-1 p-3 bg-light">
               <h5>Step 2</h5>
-              Save this link below to prove your answer after oDAO reaches consensus. <br />
-              It contains the salt you need to prove ur answer, without it you cannot prove your hash is right.
+              Save this link below to prove your answer. It contains the salt you need to prove ur answer, without it you cannot prove your hash is right.
               <div className="my-5">
                 <a className="text-break" href={window.location.href + "&verify=true"}>
                   {window.location.href + "&verify=true"}
@@ -384,7 +383,7 @@ function App() {
                 <p className="">
                   <i>Salt: {hashSalt}</i>
                 </p>
-                <div className="mt-5">Reply to your original post in discord where you posted your hash, with this url to reveal your answer and prove the original hash is yours.</div>
+                <div className="mt-5">After oDAO reaches consensus, reply to your original post in discord where you posted your hash with this url, to reveal your answer and prove the original hash is yours.</div>
               </div>
             </div>
           </div>
