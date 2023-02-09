@@ -3,10 +3,10 @@
     "bootstrapMode": false,
     "members": {
       "required": 3,
-      "count": 15,
+      "count": 16,
       "members": [
         { "index": 0, "address": "0xB3A533098485bede3Cb7fA8711AF84FE0bb1e0aD", "id": "nimbus", "url": "https://nimbus.team", "valid": true, "challenged": false, "joinTime": 1640001121, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
-        { "index": 1, "address": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "id": "rocketpool-2", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1633230782, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1667282987 },
+        { "index": 1, "address": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "id": "rocketpool-2", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1633230782, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1675751339 },
         { "index": 2, "address": "0xAf820bb236FdE6f084641c74a4C62fA61D10b293", "id": "etherscan", "url": "https://etherscan.io", "valid": true, "challenged": false, "joinTime": 1639022506, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 3, "address": "0x8d074ad69b55dD57dA2708306f1c200ae1803359", "id": "rocketpool-t", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1633324578, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1657501669 },
         { "index": 4, "address": "0x751683968FD078341C48B90bC657d6bAbc2339F7", "id": "superphiz", "url": "https://ethstaker.cc", "valid": true, "challenged": false, "joinTime": 1637556273, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
@@ -17,22 +17,23 @@
         { "index": 9, "address": "0xDf590A63B91E8278a9102BEe9aAfd444F8A4b780", "id": "consensyscodefi", "url": "https://consensys.net/codefi", "valid": true, "challenged": false, "joinTime": 1637779211, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 10, "address": "0x9c69e7FCe961FD837F99c808aD75ED39a2c549Cb", "id": "fireeyes", "url": "https://www.fireeyes.xyz", "valid": true, "challenged": false, "joinTime": 1637785869, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 11, "address": "0xc5D291607600044348E5014404cc18394BD1D57d", "id": "lighthouse", "url": "https://lighthouse.sigp.io", "valid": true, "challenged": false, "joinTime": 1638939669, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
-        { "index": 12, "address": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "id": "rocketpool-1", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1658361807, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1670383895 },
+        { "index": 12, "address": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "id": "rocketpool-1", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1658361807, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1674786983 },
         { "index": 13, "address": "0x16222268bB682AA34cE60C73F4527F30aCA1b788", "id": "rocketpool-3", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1658362137, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
-        { "index": 14, "address": "0x8fB569C14b372430f9aF8B235940187b449d0dec", "id": "sassal", "url": "https://twitter.com/sassal0x", "valid": true, "challenged": false, "joinTime": 1671286115, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 }
+        { "index": 14, "address": "0x8fB569C14b372430f9aF8B235940187b449d0dec", "id": "sassal", "url": "https://twitter.com/sassal0x", "valid": true, "challenged": false, "joinTime": 1671286115, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
+        { "index": 15, "address": "0x9f56F3aEed0E79f0e7612119ACa0bab15477cEC6", "id": "rocketscientists-1", "url": "http://rpscientists.com/", "valid": true, "challenged": false, "joinTime": 1675721591, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 }
       ]
     },
-    "settings": { "members": { "contract": "0xdA1AB39e62E0A5297AF44C7064E501b0613f0D01", "quorum": "510000000000000000", "rplbond": "1750000000000000000000", "minipoolUnbondedMax": "30", "minipoolUnbondedMinFee": "800000000000000000", "challengeCooldown": "604800", "challengeWindow": "604800", "challengeCost": "1000000000000000000" }, "minipool": { "contract": "0xA29b42BbD19B76aB092BCc3C20370887bBfd9095", "scrubPeriod": "43200", "scrubQuorum": "510000000000000000", "scrubPenaltyEnabled": false }, "proposal": { "contract": "0xAD038f8994a6bd51C8A72D3721CEd83401D4d2b0", "cooldownTime": "172800", "voteTime": "1209600", "voteDelayTime": "604800", "executeTime": "2419200", "actionTime": "2419200" }, "rewards": { "contract": "0x7322c24752f79c05FFD1E2a6FCB97020C1C264F1", "networkEnabled": { "mainnet": true } } }
+    "settings": { "members": { "contract": "0xdA1AB39e62E0A5297AF44C7064E501b0613f0D01", "quorum": "510000000000000000", "rplbond": "1750000000000000000000", "minipoolUnbondedMax": "30", "minipoolUnbondedMinFee": "800000000000000000", "challengeCooldown": "604800", "challengeWindow": "604800", "challengeCost": "1000000000000000000" }, "minipool": { "contract": "0xA29b42BbD19B76aB092BCc3C20370887bBfd9095", "scrubPeriod": "43200", "scrubQuorum": "510000000000000000", "scrubPenaltyEnabled": false }, "proposal": { "contract": "0xb0ec3F657ef43A615aB480FA8D5A53BF2c2f05d5", "cooldownTime": "172800", "voteTime": "1209600", "voteDelayTime": "604800", "executeTime": "2419200", "actionTime": "2419200" }, "rewards": { "contract": "0x7322c24752f79c05FFD1E2a6FCB97020C1C264F1", "networkEnabled": { "mainnet": true } } }
   },
   "protocol": {
     "bootstrapMode": true,
     "members": { "count": 0, "members": [] },
-    "treasury": "74158136303463473724312",
+    "treasury": "47910668494098463724312",
     "settings": {
       "auction": { "contract": "0x87c41E0a44826745b398071025e306Ce03bebeCf", "createLotEnabled": false, "bidOnLotEnabled": true, "lotMinimumEthValue": "1000000000000000000", "lotMaximumEthValue": "10000000000000000000", "lotDuration": "40320", "startingPriceRatio": "1000000000000000000", "reservePriceRatio": "500000000000000000" },
       "deposit": { "contract": "0xCc82C913B9f3a207b332d216B101970E39E59DB3", "depositEnabled": true, "assignDepositsEnabled": true, "minDeposit": "10000000000000000", "maxDepositPoolSize": "5000000000000000000000", "maxDepositAssignments": 2, "depositFee": "500000000000000" },
       "inflation": { "contract": "0xEDD568281929a9a276F4cBEd80DEB208f11Ba3Bb", "intervalRate": "1000133680617113500", "intervalStartTime": 1633066914 },
-      "minipool": { "contract": "0x030aEa8378Cc131674D6D655cA26B5A3ef4C63da", "launchBalance": "32000000000000000000", "fullDepositNodeAmount": "32000000000000000000", "halfDepositNodeAmount": "16000000000000000000", "emptyDepositNodeAmount": "0", "fullDepositUserAmount": "16000000000000000000", "halfDepositUserAmount": "16000000000000000000", "emptyDepositUserAmount": "32000000000000000000", "submitWithdrawableEnabled": false, "launchTimeout": "1209600", "maxCount": "10000000" },
+      "minipool": { "contract": "0x030aEa8378Cc131674D6D655cA26B5A3ef4C63da", "maxCount": "10000000", "launchBalance": "32000000000000000000", "launchTimeout": "1209600", "fullDepositNodeAmount": "32000000000000000000", "halfDepositNodeAmount": "16000000000000000000", "emptyDepositNodeAmount": "0", "fullDepositUserAmount": "16000000000000000000", "halfDepositUserAmount": "16000000000000000000", "emptyDepositUserAmount": "32000000000000000000", "submitWithdrawableEnabled": false },
       "network": { "contract": "0x320f3aAB9405e38b955178BBe75c477dECBA0C27", "nodeConsensusThreshold": "510000000000000000", "submitBalancesEnabled": true, "submitBalancesFrequency": 5760, "submitPricesEnabled": true, "submitPricesFrequency": 5760, "minNodeFee": "150000000000000000", "targetNodeFee": "150000000000000000", "maxNodeFee": "150000000000000000", "nodeFeeDemandRange": "1800000000000000000000", "targetRethCollateralRate": "100000000000000000", "rethDepositDelay": 0, "nodePenaltyThreshold": "510000000000000000", "perPenaltyRate": "100000000000000000", "submitRewardsEnabled": true, "minStrikes": 3 },
       "node": { "contract": "0xddB6E648D6cbeAB31A34a21cA5229db3FF16C9b6", "registrationEnabled": true, "depositEnabled": true, "minPerMinipoolStake": "100000000000000000", "maxPerMinipoolStake": "1500000000000000000", "smoothingPoolRegistrationEnabled": true },
       "rewards": { "contract": "0xCDb681AF33C60f4D659d12E309b6C57fA4A97673", "nodePerc": "700000000000000000", "odaoPerc": "150000000000000000", "pdaoPerc": "150000000000000000", "intervalTime": 2419200 }
@@ -200,7 +201,7 @@
         "functionArgs": [
           { "type": "string", "name": "type", "value": "addContract" },
           { "type": "string", "name": "name", "value": "rocketUpgradeOneDotOne" },
-          { "type": "string", "name": "contractAbi", "value": "eJzNmkFv3CgUx79K5XMOxmAbcpvdqNIephs1vUVR9YDHrJWJPcK4aVT1u5eJp51kOoydbFS9W2Iw/P/8ePDAc/0ta9rNEPrs/Hr7Z0DfwvrTwwaz88x0bfBgwruPnbnFcBU6Dyv8Z1vJgcHsLGvhblvxs39aYWGtx76PxWFsB3YPvt+cZX2AgMshgG7WTXiIpW3XbuAB9Br3b8Se++AHExvMvp890Xjzq0/8imYIaONL3RBSFnTXrfc69x08Pj+u50uD9/uKbmhNaLo2PnkUBW3IzqM0jK82qxbC4LfV8q+cAZdGqpTeFu/HYfx7Dc3dxeLf08Lh1yD+pv30cL5SPohKodI4W/5CN6cdRIBNuzpmYFfypvqdAamrXEzqj9I/dBY/+aGPs2fx2HpPi4UWQjqr8td5IQbGqsIpDvUcM5e+C53p1lcYQhTSX+Cm65tAiw43JWoriv9hiBgiaZyFysyKnUNHHzDcd/6WGKIaFaCdFUAJQ8QQ5YojouKvchSXCFp8JOOqMsBe64YYHIWGAbDpvXMX/pdjUkIISFHmrijYjDVt74AaBJsXnM+AsGzaZhP1L6GNyaqnBQIq4SpRToM4cEEMRmkZK3NhJm1so5nkLi9ywetC2Jc4IAbBSeC10jDLAsloiLPIaYblSxwQgyAxz7Uu5CwLVwFuR22EIDgomLRsOpl64oAYhNqpQhV2ejn6iPfgbU9vg0a0wljUL3FADAJgUQOTyUjwR460P5O+nStaTBSUEnKZ3CJmGCKGiOc1c6VOntVHR0v0t2u8aLYK9BA6v4SmbZHYBp4jV1ra5N5x2gsxMIVExSqWvFz0z3LC97C9OH2gxaOImW2Zpy/ojloghsGAFcJWya1w9LC7QbjEKDM0SGzVMlpbBjx59j7ugRiIGnItHEteh/h9ar4P7Qtc4yoKoMVD1KZwDCZCO2GFGBZeSlMx9zIsJFcrXoui4ulL3lNOiEGpwZQx85rYCK/uui78Fzunl/tqZgS3emLVfWaAGALBFFhXJ0/iPYZhc1rwn/uQqePaqkEkh/sL+n5s54TcIf4vj+kdC972skk4K2yZFLyKp6Lj36cJTXIj84LVxUF6lJJ1rW72yj7vHuLvn9y39cYGj8z+g0Z00x9GwePrz6bp4tmozf6e/2QYDs61TspcS0bc9l9vbNtVDmIOk5yyux83vHGvFRPxDFHGOXbzA5wyqY4=" },
+          { "type": "string", "name": "contractABI", "value": "eJzNmkFv3CgUx79K5XMOxmAbcpvdqNIephs1vUVR9YDHrJWJPcK4aVT1u5eJp51kOoydbFS9W2Iw/P/8ePDAc/0ta9rNEPrs/Hr7Z0DfwvrTwwaz88x0bfBgwruPnbnFcBU6Dyv8Z1vJgcHsLGvhblvxs39aYWGtx76PxWFsB3YPvt+cZX2AgMshgG7WTXiIpW3XbuAB9Br3b8Se++AHExvMvp890Xjzq0/8imYIaONL3RBSFnTXrfc69x08Pj+u50uD9/uKbmhNaLo2PnkUBW3IzqM0jK82qxbC4LfV8q+cAZdGqpTeFu/HYfx7Dc3dxeLf08Lh1yD+pv30cL5SPohKodI4W/5CN6cdRIBNuzpmYFfypvqdAamrXEzqj9I/dBY/+aGPs2fx2HpPi4UWQjqr8td5IQbGqsIpDvUcM5e+C53p1lcYQhTSX+Cm65tAiw43JWoriv9hiBgiaZyFysyKnUNHHzDcd/6WGKIaFaCdFUAJQ8QQ5YojouKvchSXCFp8JOOqMsBe64YYHIWGAbDpvXMX/pdjUkIISFHmrijYjDVt74AaBJsXnM+AsGzaZhP1L6GNyaqnBQIq4SpRToM4cEEMRmkZK3NhJm1so5nkLi9ywetC2Jc4IAbBSeC10jDLAsloiLPIaYblSxwQgyAxz7Uu5CwLVwFuR22EIDgomLRsOpl64oAYhNqpQhV2ejn6iPfgbU9vg0a0wljUL3FADAJgUQOTyUjwR460P5O+nStaTBSUEnKZ3CJmGCKGiOc1c6VOntVHR0v0t2u8aLYK9BA6v4SmbZHYBp4jV1ra5N5x2gsxMIVExSqWvFz0z3LC97C9OH2gxaOImW2Zpy/ojloghsGAFcJWya1w9LC7QbjEKDM0SGzVMlpbBjx59j7ugRiIGnItHEteh/h9ar4P7Qtc4yoKoMVD1KZwDCZCO2GFGBZeSlMx9zIsJFcrXoui4ulL3lNOiEGpwZQx85rYCK/uui78Fzunl/tqZgS3emLVfWaAGALBFFhXJ0/iPYZhc1rwn/uQqePaqkEkh/sL+n5s54TcIf4vj+kdC972skk4K2yZFLyKp6Lj36cJTXIj84LVxUF6lJJ1rW72yj7vHuLvn9y39cYGj8z+g0Z00x9GwePrz6bp4tmozf6e/2QYDs61TspcS0bc9l9vbNtVDmIOk5yyux83vHGvFRPxDFHGOXbzA5wyqY4=" },
           { "type": "address", "name": "contractAddress", "value": "0xC680a22b4F03977f69b51A09f3Dbe922eb77C8FE" }
         ]
       },
@@ -239,7 +240,7 @@
         "functionArgs": [
           { "type": "string", "name": "type", "value": "upgradeContract" },
           { "type": "string", "name": "name", "value": "rocketNodeManager" },
-          { "type": "string", "name": "contractAbi", "value": "eNrlWN1vmzAQ/1cmntEeJm2q+la1nVYp7aIk0h6qKnLgSKyCjcyRNKv6v+9MCGA+Agltx7q3BJ/Pv5/vfF/3zxYXYYyRdX6vfyIowfzZNgTr3HKkQMUc/DSRziPgFKViS7jRQh5zwLItwQItOFdFgQvXVRBFtIw7PSz98PJgWxEyhNsY2YL7HLe0KqQI2ZYtfMh30MkRqtghhdaL/WwxEtoGMiaYHvMjsE3ULjyBa53TjmTFIMEyNClYIV2owWYXFGVnGJpi+v/l67dcE/KgoGm/rFmmAnd01ASWPCI9pDcThTUIHDAxAbiR6rEDtw1T7t1O+nLFxHLALBdS+rmaxA9zPcliid00kBJXXCzHtDjV8kOneJqHzkjotxQwkg5DLsUUsI5hxiffvQYV0QaSljE2RRF96lkOyYRz1hAU1hw2uaQXC0cja8KxBNRELmUssB2McUP1t3MaoPbT5tLzouL1ZofaHTb7POB40JzFixiD2lu2dCeODEL6KupBU+Alnzd9KFWChkQXzE5qkhrI1WPjLNVoErdMUDJRWbr5vGeTsLt/qLMhxqEPtPSmNkweYRczXLQ4Y+Xhd02ZJxGpnDbXceZgsjbpXD9RIosOUzKDbE18HQqZXxxXrmIb5uebPo6pxiBceqIfm2Q5bx0mVw5r1XD2etTKZ82xCrV6eCqs0oLxblcF5JQ6V8/vZYBdaasSRrNdpTGY1NvLBJSiDzrXoCzxHeBKm4EvYmqXbgRHznweJWXq+0fqHBrPkJgIh3uTF1TPUsmhXZsgD8mbj6XVpZrs0uTRQzB6vOHarhnmXzad+c7mLX0nXbjRdhZD7DTdOlALHIH73ywbGwnmY4H/uvOsuR899hpkZ9679rkCZNyPjuqsTS+HfTtl+HoHa6hq2dVu06auvrkcslvwewfqjhZKlds3dfXKa6qUCE5wdxXqcd8jnLYbPA/IBdcwGY96qAmofgrioKcS9vQKSghJSJYcNQSBI1RcNoyDOqhYMJ8JB65nP3rtn/RWMB712v/Td7uqqDyTTU0/3/5EKmrC5ulAu7bSGL0t6R8b3KL2JNt5lmjG6cJwPf9YnBt+hMlvaknoNumpH6Lmi8ddyMMfoHy24g==" },
+          { "type": "string", "name": "contractABI", "value": "eNrlWN1vmzAQ/1cmntEeJm2q+la1nVYp7aIk0h6qKnLgSKyCjcyRNKv6v+9MCGA+Agltx7q3BJ/Pv5/vfF/3zxYXYYyRdX6vfyIowfzZNgTr3HKkQMUc/DSRziPgFKViS7jRQh5zwLItwQItOFdFgQvXVRBFtIw7PSz98PJgWxEyhNsY2YL7HLe0KqQI2ZYtfMh30MkRqtghhdaL/WwxEtoGMiaYHvMjsE3ULjyBa53TjmTFIMEyNClYIV2owWYXFGVnGJpi+v/l67dcE/KgoGm/rFmmAnd01ASWPCI9pDcThTUIHDAxAbiR6rEDtw1T7t1O+nLFxHLALBdS+rmaxA9zPcliid00kBJXXCzHtDjV8kOneJqHzkjotxQwkg5DLsUUsI5hxiffvQYV0QaSljE2RRF96lkOyYRz1hAU1hw2uaQXC0cja8KxBNRELmUssB2McUP1t3MaoPbT5tLzouL1ZofaHTb7POB40JzFixiD2lu2dCeODEL6KupBU+Alnzd9KFWChkQXzE5qkhrI1WPjLNVoErdMUDJRWbr5vGeTsLt/qLMhxqEPtPSmNkweYRczXLQ4Y+Xhd02ZJxGpnDbXceZgsjbpXD9RIosOUzKDbE18HQqZXxxXrmIb5uebPo6pxiBceqIfm2Q5bx0mVw5r1XD2etTKZ82xCrV6eCqs0oLxblcF5JQ6V8/vZYBdaasSRrNdpTGY1NvLBJSiDzrXoCzxHeBKm4EvYmqXbgRHznweJWXq+0fqHBrPkJgIh3uTF1TPUsmhXZsgD8mbj6XVpZrs0uTRQzB6vOHarhnmXzad+c7mLX0nXbjRdhZD7DTdOlALHIH73ywbGwnmY4H/uvOsuR899hpkZ9679rkCZNyPjuqsTS+HfTtl+HoHa6hq2dVu06auvrkcslvwewfqjhZKlds3dfXKa6qUCE5wdxXqcd8jnLYbPA/IBdcwGY96qAmofgrioKcS9vQKSghJSJYcNQSBI1RcNoyDOqhYMJ8JB65nP3rtn/RWMB712v/Td7uqqDyTTU0/3/5EKmrC5ulAu7bSGL0t6R8b3KL2JNt5lmjG6cJwPf9YnBt+hMlvaknoNumpH6Lmi8ddyMMfoHy24g==" },
           { "type": "address", "name": "contractAddress", "value": "0x372236c940f572020c0c0eB1Ac7212460e4E5a33" }
         ]
       },
@@ -278,7 +279,7 @@
         "functionArgs": [
           { "type": "string", "name": "type", "value": "addContract" },
           { "type": "string", "name": "name", "value": "rocketHotfixNodeFee" },
-          { "type": "string", "name": "contractAbi", "value": "eNrFVMFOwzAM/ZUp556QQNNuCO3AgQtwqyrkph6qaO0qcQbVtH8nYWEtKysVDO3WxvbLs/1e0o0qqXFi1SINn4KGoHpsG1QLpZnEgJbZPesXlAdhA894G5JWoFEliqAOiU+mn3BdFAat9WHZ4UA82GaJsgKCd04gL6tSWh8lpgZayCvsKvzNVozTHlBtkzGOzv9fXF51XDqQz1C4NgbRGDaBGTs5hgh7+rGIuBjpKRkAHDKCmh1JV9qjNZzGusTXLnXlSEvJ9HUIvX7eUDvBYryjnLn6bkAf56egUYX1n5vEGo0N4VEWQRPzY2KZn2YnQWM3ceU/UJmg3N/R2XgL1Q0T0vlFflC5M/ZsGcaUZr1HZG/OCCGuqdBn9PzrCS2HFp78rEzR8f8gR6P+FTx7B9Ig8lM=" },
+          { "type": "string", "name": "contractABI", "value": "eNrFVMFOwzAM/ZUp556QQNNuCO3AgQtwqyrkph6qaO0qcQbVtH8nYWEtKysVDO3WxvbLs/1e0o0qqXFi1SINn4KGoHpsG1QLpZnEgJbZPesXlAdhA894G5JWoFEliqAOiU+mn3BdFAat9WHZ4UA82GaJsgKCd04gL6tSWh8lpgZayCvsKvzNVozTHlBtkzGOzv9fXF51XDqQz1C4NgbRGDaBGTs5hgh7+rGIuBjpKRkAHDKCmh1JV9qjNZzGusTXLnXlSEvJ9HUIvX7eUDvBYryjnLn6bkAf56egUYX1n5vEGo0N4VEWQRPzY2KZn2YnQWM3ceU/UJmg3N/R2XgL1Q0T0vlFflC5M/ZsGcaUZr1HZG/OCCGuqdBn9PzrCS2HFp78rEzR8f8gR6P+FTx7B9Ig8lM=" },
           { "type": "address", "name": "contractAddress", "value": "0x4640b8610f3eFdeb8d44834ADb3228d0E79eaa09" }
         ]
       },
@@ -341,6 +342,69 @@
           { "tx": { "chain": "ethereum", "from": "0x2c6c5809A257ea74a2Df6d20aeE6119196d4bEA0", "hash": "0x802515a6d4274ab82a2ad6964289c79be09388e61f700a3ca3fe985522eea695", "block": { "number": 16199698, "timestamp": 1671223187 }, "gas": "3220137181654219", "index": 45 }, "type": "proposalVoted", "proposalID": 8, "voter": "0x2c6c5809A257ea74a2Df6d20aeE6119196d4bEA0", "supported": true }
         ]
       }
+    },
+    {
+      "id": 9,
+      "proposer": "0x2354628919e1D53D2a69cF700Cc53C4093977B94",
+      "dao": "rocketDAONodeTrustedProposals",
+      "state": 6,
+      "message": "invite rocketscientists-1 (http://rpscientists.com/)",
+      "payloadValue": "0x8f14a324000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000009f56f3aeed0e79f0e7612119aca0bab15477cec60000000000000000000000000000000000000000000000000000000000000012726f636b6574736369656e74697374732d3100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000018687474703a2f2f7270736369656e74697374732e636f6d2f0000000000000000",
+      "payload": {
+        "contractName": "rocketDAONodeTrustedProposals",
+        "functionName": "proposalInvite",
+        "functionArgs": [
+          { "type": "string", "name": "id", "value": "rocketscientists-1" },
+          { "type": "string", "name": "url", "value": "http://rpscientists.com/" },
+          { "type": "address", "name": "nodeAddress", "value": "0x9f56F3aEed0E79f0e7612119ACa0bab15477cEC6" }
+        ]
+      },
+      "start": 1675391783,
+      "end": 1676601383,
+      "expires": 1679020583,
+      "created": 1674786983,
+      "canceled": false,
+      "executed": true,
+      "votes": {
+        "for": "8000000000000000000",
+        "against": "0",
+        "required": "7650000000000000000",
+        "events": [
+          { "tx": { "chain": "ethereum", "from": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "hash": "0x9789574f947fd9b88b61182baeedd9001d9d8b79cf0918ccb7367e33e415852c", "block": { "number": 16545676, "timestamp": 1675396079 }, "gas": "5300765817773472", "index": 62 }, "type": "proposalVoted", "proposalID": 9, "voter": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "hash": "0xfe48546bfd8b3e25b947af017c55d5aa7145dd3609bd159ba653eb17cabb4a6a", "block": { "number": 16545679, "timestamp": 1675396115 }, "gas": "4647116659579348", "index": 82 }, "type": "proposalVoted", "proposalID": 9, "voter": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x16222268bB682AA34cE60C73F4527F30aCA1b788", "hash": "0x199b57d64915cf2e2ea5cb1feae88777617fc0e21949732a8b0fcbccb18fc73a", "block": { "number": 16545688, "timestamp": 1675396235 }, "gas": "4480193000000000", "index": 105 }, "type": "proposalVoted", "proposalID": 9, "voter": "0x16222268bB682AA34cE60C73F4527F30aCA1b788", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x8d074ad69b55dD57dA2708306f1c200ae1803359", "hash": "0x5f9c32dec0e302d505f10a40b6e8d4fe40bce072bfc19600915bb68df04f2097", "block": { "number": 16545689, "timestamp": 1675396247 }, "gas": "4480193000000000", "index": 68 }, "type": "proposalVoted", "proposalID": 9, "voter": "0x8d074ad69b55dD57dA2708306f1c200ae1803359", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x8fB569C14b372430f9aF8B235940187b449d0dec", "hash": "0x501f01f575c96a0d10bf4b4c33429e9a1f7c4fd6db5783f51c7828261992942d", "block": { "number": 16546002, "timestamp": 1675400087 }, "gas": "4480128705919003", "index": 17 }, "type": "proposalVoted", "proposalID": 9, "voter": "0x8fB569C14b372430f9aF8B235940187b449d0dec", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x751683968FD078341C48B90bC657d6bAbc2339F7", "hash": "0x56fbb21669aec823ea8c67824779bd56f3592064e7e17c31b08b311fe9395e94", "block": { "number": 16548356, "timestamp": 1675428527 }, "gas": "43356521115711491", "index": 43 }, "type": "proposalVoted", "proposalID": 9, "voter": "0x751683968FD078341C48B90bC657d6bAbc2339F7", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x1Df9a4f9421ae6306BC7b171Dff8470640f96e72", "hash": "0xe0a371eb221be121507f247da4c74483f78388ffd67f98956f5dae25c56758f4", "block": { "number": 16548692, "timestamp": 1675432583 }, "gas": "6180369361216553", "index": 21 }, "type": "proposalVoted", "proposalID": 9, "voter": "0x1Df9a4f9421ae6306BC7b171Dff8470640f96e72", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0xD7F94c53691AFB5A616C6af96e7075c1FFA1D8eE", "hash": "0xb39860aa41fc046e96d65338daba722b6dcf21dd371b5ea459297919bb70cb94", "block": { "number": 16549093, "timestamp": 1675437407 }, "gas": "8077165106922387", "index": 116 }, "type": "proposalVoted", "proposalID": 9, "voter": "0xD7F94c53691AFB5A616C6af96e7075c1FFA1D8eE", "supported": true }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "proposer": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9",
+      "dao": "rocketDAONodeTrustedProposals",
+      "state": 0,
+      "message": "Upgrade rocketNodeStaking to 0xef6f9ca7617ccd188350f9fcc6010c471edf6a5c",
+      "payloadValue": "0xdfc970ef000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000100000000000000000000000000ef6f9ca7617ccd188350f9fcc6010c471edf6a5c000000000000000000000000000000000000000000000000000000000000000f75706772616465436f6e747261637400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011726f636b65744e6f64655374616b696e670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000264654e72645638464f416a45512f5258543835354d4e4959624230314d31424168656a43456a4e315a616569326d33594b45734b2f4f30586364534d4c424345694e35612b766e6e7654586579665a6b4a5a59704158725265346b39435a3044337067574b6c7044576b414e4a5a3439576a7043365a423238345730455a5342524a4d4a41486f454439783351546c4f4833764d7966664c41386f3935507847656750412b454c777172576a4b713861614171627771724861775a55397553435a554d79546d51414754584d6257475947326d4e53563533694f366169785473574b7a5554554b705a696a5532785258616b6d39455a593061552b446e3834764c69676c596b61474b367775774378665338416c30775032776b6370584d66564c7747506e7271764244356d7a684f45593263322b343836637a593876377130434968676450682b792f7a4f645a305844314d48457241716f6a4b50614d6b626e6c59316f47366870347352535635574f756f617268674579566a69706b466b776b6d4b68426831765344314c6f4c386176466c514c5a72567365776d6172627863417a6973466f37547974584477773961564e70372f4e592f70577a6e32666f4f73755167654f6a7a5031484e5a746c4868736e7850713957755671783632753042326e35507142496b484c6f4e6e3338656636362f4e38327537756c56463579452f5447377966726a667557324774766c752b366363377877614e6e7a71564b522f377733327147646e362b6e47677a4a503965727668793945683765306b62724c384c50795032664d6462484570616d2f5267346a626738662b42776d7a514c383d00000000000000000000000000000000000000000000000000000000",
+      "payload": {
+        "contractName": "rocketDAONodeTrustedProposals",
+        "functionName": "proposalUpgrade",
+        "functionArgs": [
+          { "type": "string", "name": "type", "value": "upgradeContract" },
+          { "type": "string", "name": "name", "value": "rocketNodeStaking" },
+          { "type": "string", "name": "contractABI", "value": "eNrdV8FOAjEQ/RXT855MNIYbB01M1BAhejCEjN1Zaei2m3YKEsK/O0XcdSMLBCEiN5a+vnnvTXeyfZkJZYpAXrRe4k9CZ0D3pgWKlpDWkANJZ49WjpC6ZB284W0EZSBRJMJAHoED9x3QTlOH3vMyffLA8o95PxGegPA+ELwqrWjKq8aaAqbwqrHawZU9uSCZUMyTmQAGTXMbWGYG2mNSV53iO6aixTsWKzUTUKpZijU2xRXakm9EZY0aU+Dn84vLiglYkaGK6wuwCxfS8Al0wP2wkcpXMfVLwGPnrqvBD5mzhOEY2c2+486czY8v7q0CIhgdPh+y/zOdZ0XD1MHErAqojKPaMkbnlY1oG6hp4sRSV5WOuoarhgEyVjipkFkwkmKhBh1vSD1LoL8avFlQLZrVsewmarbxcAzisFo7TytXDww9aVNp7/NY/pWzn2foOsuQgeOjzP1HNZtlHhsnxPq9WuVqx62u0B2n5PqBIkHLoNn38ef66/N82u7ulVF5yE/TG7yfrjfuW2Gtvlu+6cc7xwaNnzqVKR/7w32qGdn6+nGgzJP9ervhy9Eh7e0kbrL8LPyP2fMdbHEpam/Rg4jbg8f+BwmzQL8=" },
+          { "type": "address", "name": "contractAddress", "value": "0xEf6f9ca7617cCD188350F9fCC6010c471EDF6A5C" }
+        ]
+      },
+      "start": 1676356139,
+      "end": 1677565739,
+      "expires": 1679984939,
+      "created": 1675751339,
+      "canceled": false,
+      "executed": false,
+      "votes": { "for": "0", "against": "0", "required": "8160000000000000000", "events": [] }
     }
   ]
 }
