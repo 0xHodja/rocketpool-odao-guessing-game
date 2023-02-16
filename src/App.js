@@ -49,6 +49,8 @@ function App() {
 
   const { height, width } = useWindowDimensions();
 
+  const odaoConsensusRequired = 8;
+
   const [params] = useSearchParams();
   const navigate = useNavigate();
 
@@ -93,7 +95,7 @@ function App() {
       })
       .sort((a, b) => (parseInt(a.timestamp) > parseInt(b.timestamp) ? 1 : -1))
       .map((x) => {
-        return { ...x, id: getODAONameByAddress(x.address), valid: tempMerkleRoots[x.merkleRoot] >= 8 };
+        return { ...x, id: getODAONameByAddress(x.address), valid: tempMerkleRoots[x.merkleRoot] >= odaoConsensusRequired };
       });
 
     setSubmissions(txs);
@@ -110,9 +112,9 @@ function App() {
       setodaoRankGuess(odaorank);
       if (odaorank.length === 0) {
         setpage(1);
-      } else if (odaorank.length < 8) {
+      } else if (odaorank.length < odaoConsensusRequired) {
         setpage(2);
-      } else if (odaorank.length === 8) {
+      } else if (odaorank.length === odaoConsensusRequired) {
         setpage(3);
       }
     }
@@ -135,7 +137,7 @@ function App() {
   }, [submissions]);
 
   useEffect(() => {
-    if (odaoRankGuess.length === 8) {
+    if (odaoRankGuess.length === odaoConsensusRequired) {
       sethash(CryptoJS.SHA256(odaoRankGuess.join(",") + hashSalt).toString());
     }
   }, [odaoRankGuess]);
@@ -174,8 +176,8 @@ function App() {
   };
 
   const handleAddMember = (id) => {
-    if (odaoRankGuess.length === 8) {
-      setwarningMessage("You have reached 8 guesses which is the length required to reach consensus. Click members below to remove them before adding more.");
+    if (odaoRankGuess.length === odaoConsensusRequired) {
+      setwarningMessage(`You have reached ${odaoConsensusRequired} guesses which is the length required to reach consensus. Click members below to remove them before adding more.`);
       return;
     }
     if (odaoRankGuess.some((x) => x === id)) {
@@ -231,7 +233,7 @@ function App() {
             <h4 className="mb-3">How this works</h4>
             <img src="./steps.png" style={{ width: "100%" }}></img>
             <ol className="text-start">
-              <li>Select 8 oDAO members in order of who you think will submit their merkle trees onchain first</li>
+              <li>Select {`${odaoConsensusRequired}`} oDAO members in order of who you think will submit their merkle trees onchain first</li>
               <li>A SHA256 hash of your answer combined with a random salt, will be generated</li>
               <ul>
                 <li>The salt is just to ensure someone else with the same answer as you does not have the same SHA256 hash</li>
@@ -282,9 +284,9 @@ function App() {
           <div className="col text-center">
             <h4 className="mb-3">🏇🏽 Rank oDAO Members</h4>
             {odaoRankGuess.length === 0 && <p>Select oDAO members in the order they will submit their trees.</p>}
-            {odaoRankGuess.length !== 8 && <p>{`Select ${8 - odaoRankGuess.length} more member${odaoRankGuess.length < 7 ? "s" : ""}`}</p>}
+            {odaoRankGuess.length !== odaoConsensusRequired && <p>{`Select ${odaoConsensusRequired - odaoRankGuess.length} more member${odaoRankGuess.length < odaoConsensusRequired - 1 ? "s" : ""}`}</p>}
             <div className="d-flex flex-row flex-wrap gap-1 justify-content-center">
-              {odaoRankGuess.length === 8 ? (
+              {odaoRankGuess.length === odaoConsensusRequired ? (
                 <div className="d-flex flex-column gap-1 justify-content-center">
                   <Button variant="success" onClick={() => setpage(3)}>
                     <b>Next step: Get your hash 🍪</b>
@@ -360,12 +362,12 @@ function App() {
   };
 
   const pageSubmit = () => {
-    if (odaoRankGuess.length < 8) {
+    if (odaoRankGuess.length < odaoConsensusRequired) {
       return (
         <div className="row pb-3">
           <div className="col text-center">
             <Button className="bg-warning mb-3 text-dark fw-bold" onClick={() => setpage(2)}>
-              {odaoRankGuess.length > 0 ? `Select ${8 - odaoRankGuess.length} more member${8 - odaoRankGuess.length > 1 ? "s" : ""}` : "Rank oDAO members first"}
+              {odaoRankGuess.length > 0 ? `Select ${odaoConsensusRequired - odaoRankGuess.length} more member${odaoConsensusRequired - odaoRankGuess.length > 1 ? "s" : ""}` : "Rank oDAO members first"}
             </Button>
           </div>
         </div>
@@ -494,11 +496,11 @@ function App() {
           </div>
         </div>
 
-        {odaoRankGuess.length < 8 ? (
+        {odaoRankGuess.length < odaoConsensusRequired ? (
           <div className="row pb-3">
             <div className="col text-center">
               <Button className="bg-warning mb-3 text-dark fw-bold" onClick={() => setpage(2)}>
-                {odaoRankGuess.length > 0 ? `Select ${8 - odaoRankGuess.length} more member${8 - odaoRankGuess.length > 1 ? "s" : ""}` : "Rank oDAO members first"}
+                {odaoRankGuess.length > 0 ? `Select ${odaoConsensusRequired - odaoRankGuess.length} more member${odaoConsensusRequired - odaoRankGuess.length > 1 ? "s" : ""}` : "Rank oDAO members first"}
               </Button>
             </div>
           </div>
@@ -516,7 +518,7 @@ function App() {
                   <p className="fw-bold text-break">
                     Hash: {hash}
                     <br />
-                    Score: {scoringArray().reduce((a, b) => a + b.score || 0, 0)} {submissions.reduce((a, b) => a + (b.valid ? 1 : 0), 0) === 8 ? "" : "(not your final score until consensus is reached)"}
+                    Score: {scoringArray().reduce((a, b) => a + b.score || 0, 0)} {submissions.reduce((a, b) => a + (b.valid ? 1 : 0), 0) === odaoConsensusRequired ? "" : "(not your final score until consensus is reached)"}
                   </p>
                   <div className="m-auto" style={{ maxWidth: "400px" }}>
                     <div className="table-responsive small">
@@ -609,7 +611,7 @@ function App() {
                 })}
               </tbody>
             </table>
-            <p>{submissions.reduce((a, b) => a + (b.valid ? 1 : 0), 0) === 8 ? "Consensus reached." : "Results are pending until consensus is reached..."}</p>
+            <p>{submissions.reduce((a, b) => a + (b.valid ? 1 : 0), 0) >= odaoConsensusRequired ? "Consensus reached." : "Results are pending until consensus is reached..."}</p>
           </div>
         )}
       </>
