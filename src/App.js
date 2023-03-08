@@ -49,7 +49,7 @@ function App() {
 
   const { height, width } = useWindowDimensions();
 
-  const odaoConsensusRequired = 8;
+  const odaoConsensusRequired = 9;
 
   const [params] = useSearchParams();
   const navigate = useNavigate();
