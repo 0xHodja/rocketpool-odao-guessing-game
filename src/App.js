@@ -443,7 +443,7 @@ function App() {
     let result = [];
 
     let rootCount = {};
-    submissions.map((x) => (rootCount[x.merkleRoot] = rootCount[x.merkleRoot] || 0 + 1));
+    submissions.map((x) => (rootCount[x.merkleRoot] = (rootCount[x.merkleRoot] || 0) + 1));
     let mostValidRoot = "0x";
     if (submissions.length > 0) {
       mostValidRoot = Object.entries(rootCount)
