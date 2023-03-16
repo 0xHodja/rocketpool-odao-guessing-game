@@ -448,9 +448,11 @@ function App() {
     if (submissions.length > 0) {
       mostValidRoot = Object.entries(rootCount)
         .map(([k, v]) => [k, v])
-        .sort((a, b) => (a[1] > b[1] ? 1 : -1))[0][0];
+        .sort((a, b) => (a[1] < b[1] ? 1 : -1))[0][0];
     }
     let validSubmissions = submissions.filter((x) => x.merkleRoot === mostValidRoot);
+    console.log(rootCount);
+    console.log(validSubmissions);
 
     for (let i = 0; i < odaoRankGuess.length; i++) {
       let guess = odaoRankGuess[i];
