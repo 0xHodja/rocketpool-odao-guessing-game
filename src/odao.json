@@ -3,7 +3,7 @@
     "bootstrapMode": false,
     "members": {
       "required": 3,
-      "count": 17,
+      "count": 18,
       "members": [
         { "index": 0, "address": "0xB3A533098485bede3Cb7fA8711AF84FE0bb1e0aD", "id": "nimbus", "url": "https://nimbus.team", "valid": true, "challenged": false, "joinTime": 1640001121, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 1, "address": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "id": "rocketpool-2", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1633230782, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1676609111 },
@@ -17,11 +17,12 @@
         { "index": 9, "address": "0xDf590A63B91E8278a9102BEe9aAfd444F8A4b780", "id": "consensyscodefi", "url": "https://consensys.net/codefi", "valid": true, "challenged": false, "joinTime": 1637779211, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 10, "address": "0x9c69e7FCe961FD837F99c808aD75ED39a2c549Cb", "id": "fireeyes", "url": "https://www.fireeyes.xyz", "valid": true, "challenged": false, "joinTime": 1637785869, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 11, "address": "0xc5D291607600044348E5014404cc18394BD1D57d", "id": "lighthouse", "url": "https://lighthouse.sigp.io", "valid": true, "challenged": false, "joinTime": 1638939669, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
-        { "index": 12, "address": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "id": "rocketpool-1", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1658361807, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1674786983 },
+        { "index": 12, "address": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "id": "rocketpool-1", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1658361807, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 1679013815 },
         { "index": 13, "address": "0x16222268bB682AA34cE60C73F4527F30aCA1b788", "id": "rocketpool-3", "url": "https://rocketpool.net", "valid": true, "challenged": false, "joinTime": 1658362137, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 14, "address": "0x8fB569C14b372430f9aF8B235940187b449d0dec", "id": "sassal", "url": "https://twitter.com/sassal0x", "valid": true, "challenged": false, "joinTime": 1671286115, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
         { "index": 15, "address": "0x9f56F3aEed0E79f0e7612119ACa0bab15477cEC6", "id": "rocketscientists-1", "url": "http://rpscientists.com/", "valid": true, "challenged": false, "joinTime": 1675721591, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
-        { "index": 16, "address": "0x58fa2ca71c4a37f6B280fc55e04cC8Effa68a18A", "id": "gitcoin", "url": "https://gitcoin.co", "valid": true, "challenged": false, "joinTime": 1678397483, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 }
+        { "index": 16, "address": "0x58fa2ca71c4a37f6B280fc55e04cC8Effa68a18A", "id": "gitcoin", "url": "https://gitcoin.co", "valid": true, "challenged": false, "joinTime": 1678397483, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 },
+        { "index": 17, "address": "0x55bf89C8Af56414f2114d48764a608019DA17d2b", "id": "coinbaseventures", "url": "https://ventures.coinbase.com", "valid": true, "challenged": false, "joinTime": 1680270359, "rplBondAmount": "1750000000000000000000", "unbondedValidatorCount": 0, "lastProposalTime": 0 }
       ]
     },
     "settings": { "members": { "contract": "0xdA1AB39e62E0A5297AF44C7064E501b0613f0D01", "quorum": "510000000000000000", "rplbond": "1750000000000000000000", "minipoolUnbondedMax": "30", "minipoolUnbondedMinFee": "800000000000000000", "challengeCooldown": "604800", "challengeWindow": "604800", "challengeCost": "1000000000000000000" }, "minipool": { "contract": "0xA29b42BbD19B76aB092BCc3C20370887bBfd9095", "scrubPeriod": "43200", "scrubQuorum": "510000000000000000", "scrubPenaltyEnabled": false }, "proposal": { "contract": "0xb0ec3F657ef43A615aB480FA8D5A53BF2c2f05d5", "cooldownTime": "172800", "voteTime": "1209600", "voteDelayTime": "604800", "executeTime": "2419200", "actionTime": "2419200" }, "rewards": { "contract": "0x7322c24752f79c05FFD1E2a6FCB97020C1C264F1", "networkEnabled": { "mainnet": true } } }
@@ -29,7 +30,7 @@
   "protocol": {
     "bootstrapMode": true,
     "members": { "count": 0, "members": [] },
-    "treasury": "32380419772760790752368",
+    "treasury": "34538349848577887170822",
     "settings": {
       "auction": { "contract": "0x87c41E0a44826745b398071025e306Ce03bebeCf", "createLotEnabled": false, "bidOnLotEnabled": true, "lotMinimumEthValue": "1000000000000000000", "lotMaximumEthValue": "10000000000000000000", "lotDuration": "40320", "startingPriceRatio": "1000000000000000000", "reservePriceRatio": "500000000000000000" },
       "deposit": { "contract": "0xCc82C913B9f3a207b332d216B101970E39E59DB3", "depositEnabled": true, "assignDepositsEnabled": true, "minDeposit": "10000000000000000", "maxDepositPoolSize": "5000000000000000000000", "maxDepositAssignments": 2, "depositFee": "500000000000000" },
@@ -458,6 +459,45 @@
           { "tx": { "chain": "ethereum", "from": "0x751683968FD078341C48B90bC657d6bAbc2339F7", "hash": "0xdf76c7ef7f3c5916ca9b5c82983413c3cc743bd3a84a5fb3d4b17545db8ae776", "block": { "number": 16709315, "timestamp": 1677376955 }, "gas": "4402162705117927", "index": 12 }, "type": "proposalVoted", "proposalID": 11, "voter": "0x751683968FD078341C48B90bC657d6bAbc2339F7", "supported": true },
           { "tx": { "chain": "ethereum", "from": "0x2c6c5809A257ea74a2Df6d20aeE6119196d4bEA0", "hash": "0xd84130ef78abfad84dc94b134cdc5c029a4219e8b43c1a8311669b33798adc25", "block": { "number": 16715888, "timestamp": 1677456731 }, "gas": "5921999186954055", "index": 84 }, "type": "proposalVoted", "proposalID": 11, "voter": "0x2c6c5809A257ea74a2Df6d20aeE6119196d4bEA0", "supported": true },
           { "tx": { "chain": "ethereum", "from": "0x9c69e7FCe961FD837F99c808aD75ED39a2c549Cb", "hash": "0x7f06578a6f7352c7e43e7ad23f3d001f69bd04fb154f3f41726b4c29009451b0", "block": { "number": 16716048, "timestamp": 1677458687 }, "gas": "4814452808580296", "index": 102 }, "type": "proposalVoted", "proposalID": 11, "voter": "0x9c69e7FCe961FD837F99c808aD75ED39a2c549Cb", "supported": true }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "proposer": "0x2354628919e1D53D2a69cF700Cc53C4093977B94",
+      "dao": "rocketDAONodeTrustedProposals",
+      "state": 6,
+      "message": "invite coinbaseventures+unit410 (https://ventures.coinbase.com)",
+      "payloadValue": "0x8f14a324000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000055bf89c8af56414f2114d48764a608019da17d2b0000000000000000000000000000000000000000000000000000000000000018636f696e6261736576656e74757265732b756e69743431300000000000000000000000000000000000000000000000000000000000000000000000000000001d68747470733a2f2f76656e74757265732e636f696e626173652e636f6d000000",
+      "payload": {
+        "contractName": "rocketDAONodeTrustedProposals",
+        "functionName": "proposalInvite",
+        "functionArgs": [
+          { "type": "string", "name": "id", "value": "coinbaseventures+unit410" },
+          { "type": "string", "name": "url", "value": "https://ventures.coinbase.com" },
+          { "type": "address", "name": "nodeAddress", "value": "0x55bf89C8Af56414f2114d48764a608019DA17d2b" }
+        ]
+      },
+      "start": 1679618615,
+      "end": 1680828215,
+      "expires": 1683247415,
+      "created": 1679013815,
+      "canceled": false,
+      "executed": true,
+      "votes": {
+        "for": "9000000000000000000",
+        "against": "0",
+        "required": "8670000000000000000",
+        "events": [
+          { "tx": { "chain": "ethereum", "from": "0x1Df9a4f9421ae6306BC7b171Dff8470640f96e72", "hash": "0x8ab00cd8356c0a62db709dbd361658acbe4d55440710ccdc0e0e9b9aa3735068", "block": { "number": 16900376, "timestamp": 1679697539 }, "gas": "4873493000000000", "index": 133 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x1Df9a4f9421ae6306BC7b171Dff8470640f96e72", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x9f56F3aEed0E79f0e7612119ACa0bab15477cEC6", "hash": "0x378617d7f395b4d0a168dc39285494ca3d00c2672844515160fcf0b0067d0984", "block": { "number": 16913177, "timestamp": 1679852819 }, "gas": "3841860322148382", "index": 197 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x9f56F3aEed0E79f0e7612119ACa0bab15477cEC6", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "hash": "0xf4f13fe85217332f175e1523a62cea241b747d8e3357015acb664f34572fcc01", "block": { "number": 16914771, "timestamp": 1679872163 }, "gas": "3814904726131269", "index": 70 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x2354628919e1D53D2a69cF700Cc53C4093977B94", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "hash": "0x578478505f235c9054f4371385c3bd4859a239be3ed58d3ae42ad58126a0f986", "block": { "number": 16914785, "timestamp": 1679872331 }, "gas": "3409092543467150", "index": 103 }, "type": "proposalVoted", "proposalID": 12, "voter": "0xCCbFF44E0f0329527feB0167bC8744d7D5aEd3e9", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x16222268bB682AA34cE60C73F4527F30aCA1b788", "hash": "0x2f00fcbe193e11bbc3072d0ab6e947fdfe94a137dd173d5f1488e4f97646612d", "block": { "number": 16914790, "timestamp": 1679872391 }, "gas": "3289033650188220", "index": 70 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x16222268bB682AA34cE60C73F4527F30aCA1b788", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x8d074ad69b55dD57dA2708306f1c200ae1803359", "hash": "0x25ca4fadc28c691fa3dd7edcb14ef9c955766c9af4cce108220abdfcfc5bbf7b", "block": { "number": 16914795, "timestamp": 1679872451 }, "gas": "3206401745569609", "index": 152 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x8d074ad69b55dD57dA2708306f1c200ae1803359", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x58fa2ca71c4a37f6B280fc55e04cC8Effa68a18A", "hash": "0x8e59b43617bfdd3897d9cfd3a6ddb3f960c2fad487d7eea49a53b5033ac162d7", "block": { "number": 16919341, "timestamp": 1679927639 }, "gas": "10921949472317212", "index": 30 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x58fa2ca71c4a37f6B280fc55e04cC8Effa68a18A", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0x9c69e7FCe961FD837F99c808aD75ED39a2c549Cb", "hash": "0xe3bd95bf7db018fc013cae2ca9b991c65be872446971018dacbcedb237de44c7", "block": { "number": 16928932, "timestamp": 1680044171 }, "gas": "5259357000000000", "index": 230 }, "type": "proposalVoted", "proposalID": 12, "voter": "0x9c69e7FCe961FD837F99c808aD75ED39a2c549Cb", "supported": true },
+          { "tx": { "chain": "ethereum", "from": "0xc5D291607600044348E5014404cc18394BD1D57d", "hash": "0x7f43f6259f8e84f817d942113c64ffe4994a4ce73469b7a3cdf96dd8f5d3941f", "block": { "number": 16935514, "timestamp": 1680124175 }, "gas": "6354761461231209", "index": 311 }, "type": "proposalVoted", "proposalID": 12, "voter": "0xc5D291607600044348E5014404cc18394BD1D57d", "supported": true }
         ]
       }
     }

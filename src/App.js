@@ -49,7 +49,7 @@ function App() {
 
   const { height, width } = useWindowDimensions();
 
-  const odaoConsensusRequired = 9;
+  const odaoConsensusRequired = 10;
 
   const [params] = useSearchParams();
   const navigate = useNavigate();
@@ -300,7 +300,7 @@ function App() {
                   .filter((x) => !odaoRankGuess.some((y) => x.id === y))
                   .map((x) => {
                     return (
-                      <Button key={x.id} className="border border-2 rounded-1 border-secondary py-2 text-dark bg-light" variant="outline-warning" size="sm" style={{ width: "250px" }} onClick={() => handleAddMember(x.id)}>
+                      <Button key={x.id} className="border border-2 rounded-1 border-secondary py-2 text-dark bg-light" variant="outline-warning" size="sm" style={{ width: "270px" }} onClick={() => handleAddMember(x.id)}>
                         <div className="d-flex flex-row gap-2 justify-content-center">
                           <img src={`./${x.id}.jpg`} className="rounded-circle mx-2" width="50px" />
                           <div className="d-flex flex-column text-start">
@@ -330,7 +330,7 @@ function App() {
             <div className="d-flex flex-column flex-wrap gap-1 justify-content-center align-items-center">
               {odaoRankGuess.map((id, idx) => {
                 return (
-                  <div key={"guess_" + id} className="d-flex flex-row gap-1 border border-2 rounded-1 border-secondary p-2 justify-content-between align-items-center bg-light" style={{ width: "360px" }}>
+                  <div key={"guess_" + id} className="d-flex flex-row gap-1 border border-2 rounded-1 border-secondary p-2 justify-content-between align-items-center bg-light" style={{ width: "380px" }}>
                     <span style={{ textTransform: "capitalize" }}>
                       <div className="d-inline rounded-3 bg-secondary p-2 text-white" style={{ minWidth: "50px" }}>
                         #{idx + 1}
