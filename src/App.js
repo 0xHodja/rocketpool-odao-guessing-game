@@ -72,7 +72,7 @@ function App() {
     if (odaoMembers.length === 0) {
       return;
     }
-    let res = await fetch(`https://api.etherscan.io/api?module=account&action=txlist&address=0x594fb75d3dc2dfa0150ad03f99f97817747dd4e1&apikey=${process.env.REACT_APP_ETHERSCAN_API_KEY}`);
+    let res = await fetch(`https://api.etherscan.io/api?module=account&action=txlist&address=0xA805d68b61956BC92d556F2bE6d18747adAeEe82&apikey=${process.env.REACT_APP_ETHERSCAN_API_KEY}`);
     let data = await res.json();
     data = data.result;
     const currentTime = new Date().valueOf() / 1e3;
