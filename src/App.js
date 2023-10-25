@@ -252,7 +252,7 @@ function App() {
         <div className="row pb-3">
           <div className="col text-center">
             <h4 className="mb-3">References</h4>
-            <a href="https://etherscan.io/txs?a=0x594fb75d3dc2dfa0150ad03f99f97817747dd4e1" target="_blank" rel="noreferrer">
+            <a href="https://etherscan.io/address/0xa805d68b61956bc92d556f2be6d18747adaeee82" target="_blank" rel="noreferrer">
               ODAO Reward Submissions Contract
             </a>
             <br />
